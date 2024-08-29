@@ -1,0 +1,33 @@
+{
+  "name": "trx-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node ./src/main.ts",
+    "dev": "nodemon --exec npx ts-node ./src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@daochild/tronweb-typescript": "^1.1.2",
+    "@types/node": "^22.4.1",
+    "eslint": "^9.9.0",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@grammyjs/conversations": "^1.2.0",
+    "@grammyjs/parse-mode": "^1.10.0",
+    "@grammyjs/ratelimiter": "^1.2.0",
+    "@grammyjs/runner": "^2.0.3",
+    "@grammyjs/transformer-throttler": "^1.2.1",
+    "@noble/secp256k1": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "grammy": "^1.29.0",
+    "mongoose": "^8.5.3"
+  }
+}
